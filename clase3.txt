@@ -1,0 +1,33 @@
+Tarea : 
+	De las API traer 5 funciones y ponerlas
+	Que es Multi-tenancy?
+	Ejecitar y ver que pasa en Example Usage
+
+---------------
+Que hacer en tesina:
+
+- 1 año
+
+-- tips profeco; 
+
+-----------------
+
+Como levantar el cluster
+
+$ docker-compose up -d --build
+
+sudo docker ps -> se tarda como 5 min en levantar, hay que ver el status
+localhosts:9021
+captura de pantalla por cada resultado en Kafka examples.pdf
+FileStream || Datagen || ksql
+cambiar nombre al cluster: nombre.apellido (minusculas)
+
+agragar topics -> 	pageviews
+					numero de particiones: porque?
+				-> users
+					...
+connect -> DatagenConnector -> nombre: datagen-pageviews
+							-> key converter class: org.apache.kafka.connect-
+
+
+parar el docker: docker-compose down
